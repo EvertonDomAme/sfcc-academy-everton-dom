@@ -3,7 +3,7 @@
 var server = require('server');
 
 server.get('Show', function (req, res, next) {
-    res.render("training/rendering")
+    res.render("service/rendering")
 
     next();
 });
